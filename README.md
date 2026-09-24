@@ -221,6 +221,7 @@ Customer-Churn-Analytics-in-SaaS-Industry/
 ---
 ## Stack
 Python · pandas · numpy · matplotlib · Jupyter · Power BI Desktop
+
 ---
 ## How To Rerun
 Python 3.10+ with pandas, numpy, matplotlib. Power BI Desktop to open the .pbix.
