@@ -218,3 +218,17 @@ Customer-Churn-Analytics-in-SaaS-Industry/
     ├── Dashboard - 3 Why Customers Leave.jpg
     └── Dashboard - 4 Mood of Departing Customers.jpg
 ```
+---
+## Stack
+Python · pandas · numpy · matplotlib · Jupyter · Power BI Desktop
+---
+## How To Rerun
+Python 3.10+ with pandas, numpy, matplotlib. Power BI Desktop to open the .pbix.
+
+1. Put the two dirty CSVs under data/raw/ (or edit the DATA path in the first notebook cell).
+2. Open Notebook/Customer Churn Analytics in SaaS Industry.ipynb and Run All.
+3. Clean files write to outputs/ (copy them into data/processed/ if you keep that folder).
+4. Open the .pbix. If paths break: Transform data → Data source settings → Change Source.
+5. Do not mix the notebook 20.91% print with dashboard cards. Published rate is 20.78%.
+
+---
