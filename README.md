@@ -1,6 +1,6 @@
 # SaaS Customer Churn Analytics
 
-A junior-analyst case study on a dirty SaaS book of business: clean the files, define the metric, find who is at risk, read the exit comments, and turn that into a four-page Power BI brief.
+A case study on a dirty SaaS book of business: clean the files, define the metric, find who is at risk, read the exit comments, and turn that into a four-page Power BI brief.
 
 This is descriptive analytics. It is not a churn-prediction model and not a production system.
 
