@@ -12,7 +12,7 @@ Repo: https://github.com/sidhuairvizag/Customer-Churn-Analytics-in-SaaS-Industry
 
 ---
 
-## Official numbers vs notebook numbers
+## Official Numbers vs Notebook Numbers
 
 The clean customer file has **95,000** unique IDs. The two published counts remove different leftover rows.
 
