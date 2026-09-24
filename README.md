@@ -30,7 +30,7 @@ Slides and this README use **94,687 and 20.78%** so they match the `.pbix`.
 
 ---
 
-## Business question
+## Business Question
 
 Customers are leaving. Exit interviews exist. Management needs three things that can be acted on next week:
 
@@ -40,7 +40,7 @@ Customers are leaving. Exit interviews exist. Management needs three things that
 
 ---
 
-## What I delivered
+## What I Delivered
 
 | Step | Work |
 | --- | --- |
@@ -52,7 +52,7 @@ Customers are leaving. Exit interviews exist. Management needs three things that
 
 ---
 
-## Headline findings
+## Headline Findings
 
 | Finding | Number |
 | --- | --- |
@@ -136,7 +136,7 @@ Interview columns: `Customer_ID`, `Churn_Flag`, `Exit_Reason_Text`.
 
 ---
 
-## Cleaning rules (customers)
+## Cleaning Rules (customers)
 
 Start: 95,380 rows.
 
@@ -161,7 +161,7 @@ Other rules:
 
 ---
 
-## Text rules (interviews)
+## Text Rules (interviews)
 
 - Strip HTML, emojis, extra spaces, and null-like tokens.
 - Short or empty replies: `usable = False`, `primary_reason = Unclassified`. Dropped from reason shares.
@@ -172,7 +172,7 @@ This is a documented taxonomy, not a trained classifier. Mixed comments can land
 
 ---
 
-## Three recommendations
+## Three Recommendations
 
 1. **Rescue noisy new accounts.**  
    Onboarding plus a 48-hour reply SLA for tenure 0–6 months with 4+ tickets. That cell is 37.5% churn and only 144 accounts in the notebook cut. Short list, high rate.
@@ -185,7 +185,7 @@ This is a documented taxonomy, not a trained classifier. Mixed comments can land
 
 ---
 
-## Metric definitions
+## Metric Refinitions
 
 - **Churn rate (notebook)** = churned / accounts with a known `Churn_Flag`.
 - **Churn rate (dashboard)** = churned / accounts in the current Power BI filter. The unfiltered model is 94,687 accounts after dropping `Unknown` plan.
@@ -195,7 +195,7 @@ This is a documented taxonomy, not a trained classifier. Mixed comments can land
 
 ---
 
-## Repo layout
+## Repo Layout
 
 ```text
 Customer-Churn-Analytics-in-SaaS-Industry/
